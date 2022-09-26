@@ -14,7 +14,7 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from Nayan import login
+        from PUBLIC import login
 
         login()
 elif b == '32bit':
